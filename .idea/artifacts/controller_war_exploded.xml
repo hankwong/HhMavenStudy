@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="controller:war exploded">
+    <output-path>$PROJECT_DIR$/controller/target/controllerMvn</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>controller</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="controller" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="service-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="service" />
+          </element>
+          <element id="library" level="project" name="Maven: com.dongnao.mall:repository:0.0.1-SNAPSHOT" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/controller/target/controllerMvn/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="controller/web/Web" />
+    </root>
+  </artifact>
+</component>

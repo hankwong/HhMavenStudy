@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Jul 07 23:02:50 CST 2020
+http\://ck.dev.mall.autohome.com.cn/nexus/content/groups/public/.lastUpdated=1594134170615
+http\://94.191.6.149\:8800/repository/maven-public/.error=Could not transfer artifact org.apache.maven\:maven-error-diagnostics\:pom\:2.0.6 from/to nexus-mirror (http\://94.191.6.149\:8800/repository/maven-public/)\: Error transferring file\: Server returned HTTP response code\: 500 for URL\: http\://94.191.6.149\:8800/repository/maven-public/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom
+default-http\://94.191.6.149\:8800/repository/maven-public/.lastUpdated=1594134168788
